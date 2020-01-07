@@ -90,20 +90,24 @@ cover:
 
 # 桌面端导航栏菜单
 menu_desktop:
-  - name: 示例
-    icon: fas fa-grin
+  - name: 博文
+    icon: fas fa-rss
     url: /
-  - name: 分类
-    icon: fas fa-folder-open
-    url: blog/categories/
+  - name: 文档
+    icon: fas fa-book
+    url: docs/
     rel: nofollow
-  - name: 标签
-    icon: fas fa-hashtag
-    url: blog/tags/
+  - name: 工具
+    icon: fas fa-wrench
+    url: utils/
     rel: nofollow
-  - name: 归档
-    icon: fas fa-archive
-    url: blog/archives/
+  - name: 友链
+    icon: fas fa-users fa-fw
+    url: friends/
+    rel: nofollow
+  - name: 关于
+    icon: fas fa-user fa-fw
+    url: about/
     rel: nofollow
 
 # 手机端导航菜单（从右上角的按钮点击展开）
