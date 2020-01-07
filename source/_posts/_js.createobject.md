@@ -136,7 +136,7 @@ console.log(person1.sayName == personName2); // true
 <i class="text-indent"></i>创建了自定义的构造函数之后，其原型对象默认只会取得 constructor 属性;至于其他方法，则都是从 Object 继承而来的。当调用构造函数创建一个新实例后，该实例的内部将包含一个指针(内部属性)，指向构造函数的原型对象。ECMA-262第5版中，管这个指针叫 [[Prototype]]，虽然在脚本中没有标准的方式访问[[Prototype]],但 Firefox、Safari 和 Chrome 在每个对象上都支持一个属性 \_\_proto\_\_;而在其他实现中，这个属性对脚本则完全不可见的。不过，要明确的真正重要的一点就是，这个连接存在于实例与构造函数的原型对象之间，而不是存在于实例与构造函数之间。
 
 <i class="text-indent"></i>以前面使用 Person 构造函数和 Person.prototype 创建实例的代码为例，下图展示了各个对象之间的关系。
-![](/assets/createObj-1.jpg)
+![](/assets/image/createObj-1.jpg)
 <font size="1"><center>各个对象之间的关系</center></font>
 
 <i class="text-indent"></i>上图展示了 Person 构造函数、Person 的原型属性以及 Person 现有的两个实例之间的关系。在此，Person.prototype 指向了原型对象，而 Person.prototype.constructor 又指向了Person。原型对象中除了包含 constructor 属性之外，还包括后来添加的其他属性。Person的每个实例-- person1 和 person2 都包含一个内部属性，该属性仅仅指向了 Person.prototype; 换句话说，它们与构造函数没有直接的关系。此外，要格外注意的是，虽然这两个实例都不包含属性和方法，但我们缺可以调用 person1.sayName()。这是通过查找对象属性的过程来实现的。

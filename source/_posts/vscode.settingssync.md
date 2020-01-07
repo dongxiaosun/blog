@@ -19,7 +19,7 @@ Setting Sync 插件是将本地编辑器配置保存到 GitHub 上(本地配置�
 + Shift + Alt + U 快捷键备份(上传)
 + Shift + Alt + D 快捷键恢复(下载)
 
-![](/assets/settingsync-2.jpg)
+![](/assets/image/settingsync-2.jpg)
 
 ## 在 Github 上生成令牌（token）
 按下 ```Shift + Alt + U``` 会打开浏览器进入 Github 界面
@@ -27,16 +27,16 @@ Setting Sync 插件是将本地编辑器配置保存到 GitHub 上(本地配置�
 登陆 Github > settings > Developer settings > personal access tokens  > generate new token
 输入名称，勾选Gist，提交，保存 **token（保存好）**
 
-![](/assets/settingsync-1.jpg)
+![](/assets/image/settingsync-1.jpg)
 
 ## 将生成的 token 输入 VS Code 中
 
-![](/assets/settingsync-3.png)
+![](/assets/image/settingsync-3.png)
 
 ## 保存生成的 Gist ID
 **找到 Gist ID 并且保存起来**
-![](/assets/settingsync-4.jpg)
-![](/assets/settingsync-5.jpg)
+![](/assets/image/settingsync-4.jpg)
+![](/assets/image/settingsync-5.jpg)
 
 ## 恢复插件
 

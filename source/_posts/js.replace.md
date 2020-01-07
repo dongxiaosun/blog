@@ -66,7 +66,7 @@ str.replace(/a(...).(.)/g, function(a, b, c, d,e) {
 
 #### function中参数说明：
 **a**：第一个参数，为正则所匹配到的内容，此处为 abcdef
-![](/assets/replace.png)
+![](/assets/image/replace.png)
 **b、c**：第二个及以后的为 正则表达式中分组的内容,因为有两个 () 所以有两个分组，分别为b，c保存。
 **d**：匹配成功时所在的位置。
 **e**：整个字符串，此处为 abcdefg

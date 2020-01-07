@@ -203,7 +203,7 @@ mousedown.target 是否存在，不存在退出
 
 如图，如果点击在红色区域内，则全部不触发 clickoutside 指令的逻辑。
 
-![](/assets/element-clickoutside.jpg)
+![](/assets/image/element-clickoutside.jpg)
 
 如果以上条件全部符合，则判断闭包缓存起来的值，如果 methodName 存在则执行这个方法，如果不存在则执行 bindingFn 。例如：
 
