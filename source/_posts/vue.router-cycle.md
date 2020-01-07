@@ -1,11 +1,10 @@
 title: vue-router 完整的导航解析流程
-meta:
-  date: true
+date: 2019-04-08 20:20:00
+abbrlink: vue/cycle
 categories:
   - 学习
 tags:
   - Vue VueRouter
-
 ---
 
 学习 vue-router 完整的导航解析流程

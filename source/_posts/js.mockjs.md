@@ -1,5 +1,6 @@
 title: Vue+Mock.js，模拟接口数据，实现前后端独立开发
 date: 2019-03-21
+abbrlink: js/mockjs
 categories:
   - 教程
 tags:

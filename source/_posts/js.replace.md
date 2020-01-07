@@ -1,5 +1,6 @@
 title: 【JS学习笔记】Replace()详解
 date: 2019-04-17
+abbrlink: js/replace
 categories:
   - 学习
 tags:

@@ -1,5 +1,6 @@
 title: Element源码学习--指令 v-clickoutside
 date: 2019-04-18
+abbrlink: element-ui/clickoutside
 categories:
   - 源码
 tags:

@@ -1,7 +1,8 @@
 title: cookie 详解
-categories: 学习
-meta:
-  date: true
+date: 2019-12-30
+abbrlink: http/cookie
+categories: 
+  - 学习
 tags:
   - http js  
 ---

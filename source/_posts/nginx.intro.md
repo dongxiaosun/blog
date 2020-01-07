@@ -1,5 +1,6 @@
 title: Nginx 学习（一）
 date: 2019-05-05
+abbrlink: nginx/intro
 categories:
   - 学习
 tags:

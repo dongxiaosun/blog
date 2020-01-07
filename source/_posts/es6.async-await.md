@@ -1,10 +1,10 @@
 title: async...await 优雅的处理错误方法
 date: 2019-10-09
+abbrlink: es6/async-await
 categories:
   - 学习
 tags:
   - ES2017
-
 ---
 
 

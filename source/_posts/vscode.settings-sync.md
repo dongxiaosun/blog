@@ -1,5 +1,6 @@
 title: 如何将 VS Code 的设置保存在 github 上（Setting Sync 使用）
 date: 2019-04-26
+abbrlink: vscode/settings-sync
 categories:
   - 教程
 tags:

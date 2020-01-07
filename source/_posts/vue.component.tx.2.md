@@ -1,5 +1,6 @@
 title: Vue组件通信(二)
-date: 2019-04-23
+date: 2019-04-23 20:20:00
+abbrlink: vue/component/2
 categories:
   - 教程
 tags:
