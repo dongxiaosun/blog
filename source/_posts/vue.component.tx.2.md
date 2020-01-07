@@ -1,10 +1,3 @@
-<!--
- * @Description: 
- * @Author: sunxiaodong
- * @Date: 2020-01-02 19:23:41
- * @LastEditors: sunxiaodong
- * @LastEditTime: 2020-01-07 08:44:12
- -->
 title: Vue组件通信(二)
 date: 2019-04-23
 categories:
