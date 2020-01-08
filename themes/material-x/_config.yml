@@ -90,6 +90,24 @@ cover:
 
 # 桌面端导航栏菜单
 menu_desktop:
+  - name: 近期
+    icon: fas fa-clock fa-fw
+    url: /
+  - name: 文档
+    icon: fas fa-book
+    url: docs/
+    rel: nofollow
+  - name: 工具
+    icon: fas fa-wrench
+    url: utils/
+    rel: nofollow
+  - name: 关于
+    icon: fas fa-user fa-fw
+    url: about/
+    rel: nofollow
+
+# 手机端导航菜单（从右上角的按钮点击展开）
+menu_mobile:
   - name: 博文
     icon: fas fa-rss
     url: /
@@ -109,32 +127,6 @@ menu_desktop:
     icon: fas fa-user fa-fw
     url: about/
     rel: nofollow
-
-# 手机端导航菜单（从右上角的按钮点击展开）
-menu_mobile:
-  - name: 近期文章
-    icon: fas fa-clock
-    url: /
-  - name: 文章归档
-    icon: fas fa-archive
-    url: blog/archives/
-    rel: nofollow
-  - name: 开源项目
-    icon: fas fa-code-branch
-    url: projects/
-  - name: 我的友链
-    icon: fas fa-link
-    url: friends/
-    rel: nofollow
-  - name: 主题文档
-    icon: fas fa-book
-    url: https://xaoxuu.com/wiki/material-x/
-    rel: nofollow
-  - name: 关于小站
-    icon: fas fa-info-circle
-    url: about/
-    rel: nofollow
-
 layout:
   # 文章列表（主页、自定义的列表）布局
   posts:
@@ -174,20 +166,21 @@ sidebar:
       - name: 近期文章
         icon: fas fa-clock
         url: /
-      - name: 文章归档
-        icon: fas fa-archive
-        url: blog/archives/
+      - name: 文档归档
+        icon: fas fa-book
+        url: docs/
         rel: nofollow
-      - name: 开源项目
-        icon: fas fa-code-branch
-        url: projects/
+      - name: 常用工具
+        icon: fas fa-wrench
+        url: utils/
+      - name: 个人社交
+        icon: fab fa-zhihu
+        url: https://www.zhihu.com/people/sxd1991/activities
+        target: _blank
+        rel: nofollow
       - name: 我的友链
         icon: fas fa-link
         url: friends/
-        rel: nofollow
-      - name: 主题文档
-        icon: fas fa-book
-        url: https://xaoxuu.com/wiki/material-x/
         rel: nofollow
       - name: 关于小站
         icon: fas fa-info-circle
@@ -196,13 +189,13 @@ sidebar:
   - widget: category
     more:
       icon: fas fa-expand-arrows-alt
-      url: blog/categories/
+      url: /categories/
       rel: nofollow
   - widget: tagcloud
     icon: fas fa-tags
     more:
       icon: fas fa-expand-arrows-alt
-      url: blog/tags/
+      url: /tags/
       rel: nofollow
   # - widget: related_posts # 需要安装插件  npm i -S hexo-related-popular-posts
   - widget: music
@@ -234,38 +227,36 @@ sidebar:
 
 
 # 社交信息
-social:
-  - icon: fas fa-rss
-    url: atom.xml
-  - icon: fas fa-envelope
-    url: mailto:me@xaoxuu.com
-  - icon: fab fa-github
-    url: https://github.com/xaoxuu
-  - icon: fas fa-headphones-alt
-    url: https://music.163.com/#/user/home?id=63035382
+# social:
+#   - icon: fab fa-zhihu
+#     url: https://www.zhihu.com/people/sxd1991/activities
+#   - icon: fab fa-github
+#     url: https://github.com/AiMe1991
+#   - icon: fas fa-envelope
+#     url: mailto:sxd.08@163.com
 
 
 # 分享按钮
 # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
-share:
-  - id: qq
-    name: QQ好友
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png
-  - id: qzone
-    name: QQ空间
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png
-  # - id: qrcode
-  #   name: 微信
-  #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png
-  - id: weibo
-    name: 微博
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png
-  # - id: qrcode
-  #   name: QRcode
-  #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png
+# share:
+#   - id: qq
+#     name: QQ好友
+#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png
+#   - id: qzone
+#     name: QQ空间
+#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png
+#   # - id: qrcode
+#   #   name: 微信
+#   #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png
+#   - id: weibo
+#     name: 微博
+#     img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png
+#   # - id: qrcode
+#   #   name: QRcode
+#   #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png
 
 
-footer_post: '<center>这是文章页脚，可以设置打赏图片：<br><fancybox>![](https://img.vim-cn.com/4a/5f8244a7c6e1e069a781b84ed11008e7955e16.png)</fancybox></center>'
+footer_post: '<center>个人知乎：<br><a href="https://www.zhihu.com/people/sxd1991/">https://www.zhihu.com/people/sxd1991/</a></center>'
 # footer: '网页页脚文字，支持[markdown](/)'
 
 
