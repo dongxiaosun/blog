@@ -22,4 +22,4 @@ title: 常用工具
 |       URL 转义        | [https://meyerweb.com/eric/tools/dencoder/](https://meyerweb.com/eric/tools/dencoder/) |                      |
 |        BootCDN        | [https://www.bootcdn.cn/](https://www.bootcdn.cn/)                                     | 免费 CDN             |
 |      正则可视化       | [https://jex.im/regulex/](https://jex.im/regulex/)                                     | 推荐                 |
-|      正则可视化       | [https://regexper.com/?#%2Fa%7Cb%2F](https://regexper.com/?#%2Fa%7Cb%2F)               |                      |
+|      正则可视化       | [https://regexper.com/?#%2Fa%7Cb%2F/](https://regexper.com/?#%2Fa%7Cb%2F/)               |                      |
