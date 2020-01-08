@@ -3,7 +3,7 @@
   <div class='content <%= theme.style %>'>
     <ul class="grid navgation">
       <% (item.rows||[]).forEach(function(row){ %>
-        <li><a class="flat-box" title="<%- url_for(row.url) %>" href="<%- url_for(row.url) %>" target="<%- url_for(row.target) %>"
+        <li><a class="flat-box" title="<%- url_for(row.url) %>" href="<%- url_for(row.url) %>"
           <% if (row.rel) { %>
             rel="<%- row.rel %>"
           <% } %>
