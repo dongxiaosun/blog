@@ -1,38 +1,14 @@
 ---
-title: Hello World
+title: 常用工具地址
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+<!-- | Vue Cli          | []() | | -->
 
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+|    名称    | URL                                                                      | 说明 |
+| :--------: | ------------------------------------------------------------------------ | ---- |
+|  代码对比  | [https://tool.oschina.net/diff/](https://tool.oschina.net/diff/)         |      |
+| Vue Router | [https://router.vuejs.org/zh/](https://router.vuejs.org/zh/)             |      |
+|    Vuex    | [https://vuex.vuejs.org/zh/](https://vuex.vuejs.org/zh/)                 |      |
+|  Vue Cli   | [https://cli.vuejs.org/zh/](https://cli.vuejs.org/zh/)                   |      |
+| Vue Loader | [https://vue-loader.vuejs.org/zh/](https://vue-loader.vuejs.org/zh/)     |      |
+|  Vue I18n  | [http://kazupon.github.io/vue-i18n/](http://kazupon.github.io/vue-i18n/) |      |
