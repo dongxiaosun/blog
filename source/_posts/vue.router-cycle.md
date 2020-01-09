@@ -4,7 +4,8 @@ abbrlink: vue/cycle
 categories:
   - 学习
 tags:
-  - Vue VueRouter
+  - Vue
+  - VueRouter
 ---
 
 学习 vue-router 完整的导航解析流程
