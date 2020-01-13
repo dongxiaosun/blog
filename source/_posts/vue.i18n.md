@@ -1,20 +1,22 @@
-title: vue+element-ui+vue-i18n国际化中使用 cdn（性能优化） 详解
+title: vue+element-ui+vue-i18n国际化中使用 cdn 性能优化详解
 date: 2029-01-13
 abbrlink: vue/element-i18n-cdn
 categories:
   - 教程
 tags:
-  - vue element-ui vue-i18n cdn 性能优化
+  - vue
+  - element-ui
+  - vue-i18n
+  - cdn
+  - 性能优化
 
 ---
 
-在优化代码性能做CND加速时，一般情况下会将vue、element-ui、vue-i18n 等静态资源从依赖中抽离，抽取之后的国际化如何实现？
+通过 cdn 优化代码性能时，一般情况下会将vue、element-ui、vue-i18n 等静态资源从依赖中抽离，抽取之后的国际化如何实现？
 
 <!-- more -->
 
-### 添加 CDN 资源
-
-**项目版本介绍**
+**项目依赖版本介绍**
 
 + vue-cli: `4.0.5`
 + vue: `2.6.10`
@@ -35,7 +37,7 @@ tags:
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="icon" href="<%= BASE_URL %>favicon.ico">
   <title>demo</title>
-  <!-- CND start -->
+  <!-- cdn start -->
   <script src="//unpkg.com/vue"></script>
   <script src="https://cdn.bootcss.com/vue-router/3.1.3/vue-router.min.js"></script>
   <script src="https://cdn.bootcss.com/vue-i18n/5.0.3/vue-i18n.min.js"></script>
@@ -43,7 +45,7 @@ tags:
   <script src="//unpkg.com/element-ui"></script>
   <script src="//unpkg.com/element-ui/lib/umd/locale/zh-CN.js"></script>
   <script src="//unpkg.com/element-ui/lib/umd/locale/en.js"></script>
-  <!-- CND end -->
+  <!-- cdn end -->
 
   <script>
     // 中文
@@ -105,6 +107,7 @@ module.exports = {
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="icon" href="<%= BASE_URL %>favicon.ico">
   <title>demo</title>
+    <!-- cdn start -->
   <script src="//unpkg.com/vue"></script>
   <script src="https://cdn.bootcss.com/vue-router/3.1.3/vue-router.min.js"></script>
   <script src="https://cdn.bootcss.com/vue-i18n/5.0.3/vue-i18n.min.js"></script>
@@ -112,6 +115,7 @@ module.exports = {
   <script src="//unpkg.com/element-ui"></script>
   <script src="//unpkg.com/element-ui/lib/umd/locale/zh-CN.js"></script>
   <script src="//unpkg.com/element-ui/lib/umd/locale/en.js"></script>
+    <!-- cdn end -->
 
   <!-- 系统自有语言包 -->
   <script src="lang/en.js"></script>
@@ -165,7 +169,7 @@ module.exports = {
 
 ```
 
-##### public/lang/en.js文件
+##### public/lang/en.js 文件
 ```js
 // public/lang/en.js
 (function(global, factory) {
@@ -189,7 +193,7 @@ module.exports = {
 });
 ```
 
-##### public/lang/zh-CN.js文件
+##### public/lang/zh-CN.js 文件
 ```js
 // public/lang/zh-CN.js
 (function(global, factory) {
