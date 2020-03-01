@@ -1,5 +1,5 @@
 title: vue+element-ui+vue-i18n国际化中使用 cdn 性能优化详解
-date: 2029-01-13
+date: 2020-01-13
 abbrlink: vue/element-i18n-cdn
 categories:
   - 教程
