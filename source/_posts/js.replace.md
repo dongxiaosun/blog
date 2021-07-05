@@ -24,6 +24,7 @@ stringObject.replace(regexp/substr,replacement)
 |---|---|
 |regexp/substr|必需。规定子字符串或要替换的模式的 RegExp 对象。<br/>请注意，如果该值是一个字符串，则将它作为要检索的直接量文本模式，<br/>而不是首先被转换为 RegExp 对象。|
 |replacement|必需。一个字符串值。规定了替换文本或生成替换文本的函数。|
+
 #### 返回值
 一个新的字符串，是用 replacement 替换了 regexp 的第一次匹配或所有匹配之后得到的。
 字符串 stringObject 的 replace() 方法执行的是查找并替换的操作。它将在 stringObject 中查找与 regexp 相匹配的子字符串，然后用 replacement 来替换这些子串。如果 regexp 具有全局标志 g，那么 replace() 方法将替换所有匹配的子串。否则，它只替换第一个匹配子串。
